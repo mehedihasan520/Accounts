@@ -1,0 +1,479 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html body {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+@media screen {
+    html, body {
+        overflow-x: hidden;
+    }
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    height: auto;
+}
+/* Header Start */
+.top-header {
+    width: 100%;
+    padding: 3% 8%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.top-heading {
+    margin-left: 25%;
+}
+.top-heading ins {
+    font-size: 14px;
+    font-weight: bold;
+}
+.top-dropdown {
+    margin-left: 20px;
+}
+/* Header End */
+/* Navbar Start */
+.navbar {
+    width: 100%;
+    height: auto;
+    padding: 5% 8%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.nav-ul {
+    display: flex;
+    list-style: none;
+    column-gap: 48px;
+}
+.nav-ul li {
+    font-size: 16px;
+}
+.navbar-right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+form {
+    border-radius: 4px;
+    background-color: #f5f5f5;
+    color: #828288; 
+    padding: 7px 20px 7px 12px;
+    border: none;
+    margin-left: auto;
+}
+
+i {
+    width: 24px;
+    height: 24px;
+    padding: 4px;
+    border-radius: 4px;
+    color: #828288;
+}
+
+input {
+    width: 160px;
+    height: 18px;
+    padding: 4px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+    color: #828288;
+    font-size: 12px;
+    gap: 34px;
+}
+.icons {
+    width: 128px;
+    height: 32px;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.love {
+    width: 32px;
+    height: 32px;
+}
+.shop {
+    width: 32px;
+    height: 32px;
+}
+.user {
+    width: 32px;
+    height: 32px;
+}
+/* Navbar End */
+/* Account Start */
+.my-account {
+    width: 100%;
+    height: auto;
+    padding: 5% 8%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.account-left {
+    width: 25%;
+}
+.my-account-left ul{
+    display: flex;
+    list-style: none;
+    column-gap: 8px;
+    font-size: 14px;
+}
+.my-account-right ul{
+    display: flex;
+    list-style: none;
+    column-gap: 5px;
+    font-size: 14px;
+}
+.account-left h3 {
+    font-size: 16px;
+}
+.account-left ul li {
+    font-size: 16px;
+}
+.li-home {
+    color: #828288;
+}
+.active {
+    color: #DB4444;
+}
+.account-container {
+    width: 100%;
+    height: auto;
+    padding: 5% 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.account-left h3 {
+    margin: 10px 0;
+}
+.account-left ul {
+    list-style: none;
+    color: #828288;
+    margin-top: 10px;
+}
+.account-left ul li {
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 16px;
+}
+.account-right {
+    width: 75%;
+    height: auto;
+    padding: 1% 3%;
+}
+.account-right h2{
+    font-size: 20px;
+    color: #DB4444;
+}
+.name {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    column-gap: 16px;
+    font-size: 16px;
+}
+.inputbox {
+   width: 100%;
+   height: auto;
+   font-size: 16px;
+}
+.inputbox input {
+    width: 100%;
+    height: auto;
+    margin-top: 16px;
+    font-size: 16px;
+    padding: 4%;
+}
+.e-mail-password {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    column-gap: 16px;
+    font-size: 16px;
+}
+.password-change {
+    width: 100%;
+    height: auto;
+    column-gap: 50px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.password-change input {
+    width: 100%;
+    height: auto;
+    margin-top: 16px;
+    font-size: 16px;
+    padding: 2%;
+}
+.btn-account {
+    width: 50%;
+    height: auto;
+    display: flex;
+    margin-left: auto;
+    column-gap: 10px;
+    margin-top: 20px;
+}
+.cancel {
+    padding: 16px 24px;
+    border: none;
+    background-color: #FFFF;
+    color: #0D0D0D;
+    font-size: 16px;
+}
+.save-change {
+    width: 50%;
+    padding: 16px 24px;
+    border: none;
+    border-radius: 4px;
+    background-color: #DB4444;
+    color: #FFFF;
+    font-size: 16px;
+}
+/* Account End */
+/* Footer Start */
+.footer{
+    width: 100%;
+    height: auto;
+    padding: 5% 8%;
+    background-color: #0D0D0D;
+    color: #FFFF;
+    display: flex;
+    justify-content: space-between;
+}
+.footer h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.footer h3 {
+    font-size: 20px;
+}
+.footer p {
+    font-size: 16px;
+}
+.executive form {
+    border: 1px solid #f5f5f5;
+    border-radius: 4px;
+    color: #828288; 
+    padding: 12px 16px 12px 0px;
+    background-color: #0D0D0D;
+    margin-top: 20px;
+    margin-left: auto;
+    width: 217px;
+    height: 48px;
+    text-align: center;
+}
+.executive input {
+    background-color: #0D0D0D;
+    width: 150px;
+}
+.send {
+    width: 24px;
+    height: 24px;
+    color: #828288;
+    background-color: #0D0D0D;
+}
+
+.executive h3 {
+    margin-top: 24px;
+}
+.executive p {
+    margin-top: 20px;
+}
+.copyright {
+    background-color: #0D0D0D;
+    text-align: center;
+    padding: 2% 0%;
+}
+.account ul li {
+    list-style: none;
+    margin-top: 24px;
+}
+.support p {
+    margin-top: 24px;
+}
+.quick-link ul li {
+    list-style: none;
+    margin-top: 24px;
+}
+.download-app p {
+    margin-top: 24px;
+}
+.apps {
+    padding: 10px 10px;
+    display: flex;
+}
+.play-app-store a {
+    margin: 5px 10px;
+}
+.social-icons img {
+    margin-right: 24px;
+}
+/* Footer End */
+@media only screen and (min-width: 425px) {
+    .contianer {
+        width: 100%;
+    }
+    .top-header {
+        padding: 1rem;
+    }
+    .top-heading {
+        margin-left: 0;
+    }
+    .navbar {
+        display: block;
+        padding: 1rem;
+        text-align: center;
+    }
+    .nav-ul {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .navbar-right-side {
+        margin-top: 10px;
+    }
+    .navbar-right-side form {
+        margin-left: 0;
+    }
+    .my-account {
+        padding: 1rem;
+    }
+    .account-container {
+        display: grid;
+    }
+    .account-left {
+        width: 100%;
+    }
+    .account-right {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn-account {
+        width: 100%;
+    }
+    .footer {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+        gap: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 600px) {
+    .contianer {
+        width: 100%;
+    }
+    .top-header {
+        padding: 1rem;
+    }
+    .top-heading {
+        margin-left: 0;
+    }
+    .navbar {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
+    .nav-ul {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .navbar-right-side {
+        margin-top: 10px;
+    }
+    .navbar-right-side form {
+        margin-left: 0;
+    }
+    .my-account {
+        padding: 1rem;
+    }
+    .account-container {
+        display: grid;
+    }
+    .account-left {
+        width: 100%;
+    }
+    .account-right {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn-account {
+        width: 100%;
+    }
+    .footer {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .contianer {
+        width: 100%;
+    }
+    .top-header {
+        padding: 1rem;
+    }
+    .top-heading {
+        margin-left: 0;
+    }
+    .navbar {
+       flex-direction: row;
+        padding: 1rem;
+    }
+    .nav-ul {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .navbar-right-side {
+        margin-top: 10px;
+    }
+    .navbar-right-side form {
+        margin-left: 0;
+    }
+    .my-account {
+        padding: 1rem;
+    }
+    .btn-account {
+        width: 100%;
+    }
+    .footer {
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 20px;
+    }
+}
+
+@media only screen and (min-width: 992px) {}
+
+@media only screen and (min-width: 1200px) {}
