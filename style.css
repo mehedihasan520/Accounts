@@ -334,7 +334,7 @@ input {
     margin-right: 24px;
 }
 /* Footer End */
-@media only screen and (min-width: 425px) {
+@media only screen and (max-width: 425px) {
     .contianer {
         width: 100%;
     }
@@ -364,6 +364,8 @@ input {
     }
     .account-container {
         display: grid;
+        padding: 1rem;
+        grid-template-columns: auto;
     }
     .account-left {
         width: 100%;
@@ -378,6 +380,7 @@ input {
     }
     .footer {
         width: 100%;
+        padding: 1rem;
         display: grid;
         grid-template-columns: auto;
         gap: 20px;
@@ -385,7 +388,7 @@ input {
 
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
     .contianer {
         width: 100%;
     }
@@ -396,14 +399,14 @@ input {
         margin-left: 0;
     }
     .navbar {
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
+        display: block;
         padding: 1rem;
+        text-align: center;
     }
     .nav-ul {
         margin-top: 10px;
-        margin-left: 10px;
+        justify-content: center;
+        align-items: center;
     }
     .navbar-right-side {
         margin-top: 10px;
@@ -430,13 +433,14 @@ input {
     }
     .footer {
         width: 100%;
+        padding: 1rem;
         display: grid;
         grid-template-columns: auto auto;
         gap: 20px;
     }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
     .contianer {
         width: 100%;
     }
@@ -447,12 +451,14 @@ input {
         margin-left: 0;
     }
     .navbar {
-       flex-direction: row;
+        display: block;
         padding: 1rem;
+        text-align: center;
     }
     .nav-ul {
         margin-top: 10px;
-        margin-left: 10px;
+        justify-content: center;
+        align-items: center;
     }
     .navbar-right-side {
         margin-top: 10px;
@@ -462,6 +468,16 @@ input {
     }
     .my-account {
         padding: 1rem;
+    }
+    .account-container {
+        padding: 1rem;
+    }
+    .account-left {
+        width: 25%;
+    }
+    .account-right {
+        width: 75%;
+        padding: 0;
     }
     .btn-account {
         width: 100%;
@@ -474,6 +490,57 @@ input {
     }
 }
 
-@media only screen and (min-width: 992px) {}
+@media only screen and (max-width: 992px) {
+    /* .contianer {
+        width: 80%;
+    } */
+    .top-header {
+        padding: 2rem;
+    }
+    .top-heading {
+        margin-left: 0;
+    }
+    .navbar {
+        display: block;
+        padding: 2rem;
+        text-align: center;
+    }
+    .nav-ul {
+        margin-top: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar-right-side {
+        margin-top: 10px;
+    }
+    .navbar-right-side form {
+        margin-left: 0;
+    }
+    .my-account {
+        padding: 2rem;
+    }
+    .account-container {
+        padding: 2rem;
+    }
+    .account-left {
+        width: 25%;
+    }
+    .account-right {
+        width: 75%;
+        padding: 0;
+    }
+    .btn-account {
+        width: 100%;
+    }
+    .footer {
+        padding: 2rem;
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 20px;
+    }
+}
 
-@media only screen and (min-width: 1200px) {}
+@media only screen and (max-width: 1200px) {
+    
+}
